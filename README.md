@@ -15,13 +15,13 @@ https://owen-liuyuxuan.github.io/llm_pricing_list/
 
 ## Supported Providers
 
-| Provider | Models | Currency | Update Frequency |
-|----------|--------|----------|------------------|
-| Claude (Anthropic) | 5+ models | USD | Daily |
-| OpenAI | 7+ models | USD | Daily |
-| Gemini (Google) | 6+ models | USD | Daily |
-| DeepSeek | 4+ models | USD | Daily |
-| Doubao (ByteDance) | 3+ models | CNY→USD | Daily |
+| Provider | Currency | Update Frequency |
+|----------|----------|------------------|
+| Claude (Anthropic) | USD | Weekly |
+| OpenAI | USD | Weekly |
+| Gemini (Google) | USD | Weekly |
+| DeepSeek | USD | Weekly |
+| Doubao (ByteDance) | CNY→USD | Weekly |
 
 ## Setup
 
