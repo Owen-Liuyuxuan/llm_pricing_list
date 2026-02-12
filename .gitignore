@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# UV
+.venv/
+
+# Scraper data - do not publish to GitHub
+data/history/
+data/doubao_snapshot.html
+
+# Generated at workflow runtime (do not commit)
+docs/data/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Agents
+.agents

@@ -1,0 +1,1904 @@
+{
+  "scraped_at": "2026-02-12T03:03:07.377537",
+  "providers": [
+    {
+      "provider": "Claude",
+      "scraped_at": "2026-02-12T03:03:08.494439",
+      "currency": "USD",
+      "models": [
+        {
+          "model_name": "Claude Opus 4.6",
+          "model_id": "claude-opus-4-6",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 25.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Opus 4.5",
+          "model_id": "claude-opus-4-5",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 25.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Opus 4.1",
+          "model_id": "claude-opus-4-1",
+          "input_price_per_mtok": 15.0,
+          "output_price_per_mtok": 75.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Opus 4",
+          "model_id": "claude-opus-4",
+          "input_price_per_mtok": 15.0,
+          "output_price_per_mtok": 75.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Sonnet 4.5",
+          "model_id": "claude-sonnet-4-5",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 15.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Sonnet 4",
+          "model_id": "claude-sonnet-4",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 15.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Sonnet 3.7 (deprecated)",
+          "model_id": "claude-sonnet-3-7--deprecated",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 15.0,
+          "context_window": 200000,
+          "notes": "Deprecated"
+        },
+        {
+          "model_name": "Claude Haiku 4.5",
+          "model_id": "claude-haiku-4-5",
+          "input_price_per_mtok": 1.0,
+          "output_price_per_mtok": 5.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Haiku 3.5",
+          "model_id": "claude-haiku-3-5",
+          "input_price_per_mtok": 0.8,
+          "output_price_per_mtok": 4.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Opus 3 (deprecated)",
+          "model_id": "claude-opus-3--deprecated",
+          "input_price_per_mtok": 15.0,
+          "output_price_per_mtok": 75.0,
+          "context_window": 200000,
+          "notes": "Deprecated"
+        },
+        {
+          "model_name": "Claude Haiku 3",
+          "model_id": "claude-haiku-3",
+          "input_price_per_mtok": 0.25,
+          "output_price_per_mtok": 1.25,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        }
+      ],
+      "source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "provider": "OpenAI",
+      "scraped_at": "2026-02-12T03:03:08.593226",
+      "currency": "USD",
+      "models": [
+        {
+          "model_name": "gpt-5.2",
+          "model_id": "gpt-5-2",
+          "input_price_per_mtok": 1.75,
+          "output_price_per_mtok": 14.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.175/MTok"
+        },
+        {
+          "model_name": "gpt-5.1",
+          "model_id": "gpt-5-1",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5",
+          "model_id": "gpt-5",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5-mini",
+          "model_id": "gpt-5-mini",
+          "input_price_per_mtok": 0.25,
+          "output_price_per_mtok": 2.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.025/MTok"
+        },
+        {
+          "model_name": "gpt-5-nano",
+          "model_id": "gpt-5-nano",
+          "input_price_per_mtok": 0.05,
+          "output_price_per_mtok": 0.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.005/MTok"
+        },
+        {
+          "model_name": "gpt-5.2-chat-latest",
+          "model_id": "gpt-5-2-chat-latest",
+          "input_price_per_mtok": 1.75,
+          "output_price_per_mtok": 14.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.175/MTok"
+        },
+        {
+          "model_name": "gpt-5.1-chat-latest",
+          "model_id": "gpt-5-1-chat-latest",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5-chat-latest",
+          "model_id": "gpt-5-chat-latest",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5.2-codex",
+          "model_id": "gpt-5-2-codex",
+          "input_price_per_mtok": 1.75,
+          "output_price_per_mtok": 14.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.175/MTok"
+        },
+        {
+          "model_name": "gpt-5.1-codex-max",
+          "model_id": "gpt-5-1-codex-max",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5.1-codex",
+          "model_id": "gpt-5-1-codex",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5-codex",
+          "model_id": "gpt-5-codex",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-5.2-pro",
+          "model_id": "gpt-5-2-pro",
+          "input_price_per_mtok": 21.0,
+          "output_price_per_mtok": 168.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-5-pro",
+          "model_id": "gpt-5-pro",
+          "input_price_per_mtok": 15.0,
+          "output_price_per_mtok": 120.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-4.1",
+          "model_id": "gpt-4-1",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 8.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.5/MTok"
+        },
+        {
+          "model_name": "gpt-4.1-mini",
+          "model_id": "gpt-4-1-mini",
+          "input_price_per_mtok": 0.4,
+          "output_price_per_mtok": 1.6,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.1/MTok"
+        },
+        {
+          "model_name": "gpt-4.1-nano",
+          "model_id": "gpt-4-1-nano",
+          "input_price_per_mtok": 0.1,
+          "output_price_per_mtok": 0.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.025/MTok"
+        },
+        {
+          "model_name": "gpt-4o",
+          "model_id": "gpt-4o",
+          "input_price_per_mtok": 2.5,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $1.25/MTok"
+        },
+        {
+          "model_name": "gpt-4o-2024-05-13",
+          "model_id": "gpt-4o-2024-05-13",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 15.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-4o-mini",
+          "model_id": "gpt-4o-mini",
+          "input_price_per_mtok": 0.15,
+          "output_price_per_mtok": 0.6,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.075/MTok"
+        },
+        {
+          "model_name": "gpt-realtime",
+          "model_id": "gpt-realtime",
+          "input_price_per_mtok": 4.0,
+          "output_price_per_mtok": 16.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.4/MTok"
+        },
+        {
+          "model_name": "gpt-realtime-mini",
+          "model_id": "gpt-realtime-mini",
+          "input_price_per_mtok": 0.6,
+          "output_price_per_mtok": 2.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.06/MTok"
+        },
+        {
+          "model_name": "gpt-4o-realtime-preview",
+          "model_id": "gpt-4o-realtime-preview",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 20.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $2.5/MTok"
+        },
+        {
+          "model_name": "gpt-4o-mini-realtime-preview",
+          "model_id": "gpt-4o-mini-realtime-preview",
+          "input_price_per_mtok": 0.6,
+          "output_price_per_mtok": 2.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.3/MTok"
+        },
+        {
+          "model_name": "gpt-audio",
+          "model_id": "gpt-audio",
+          "input_price_per_mtok": 2.5,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-audio-mini",
+          "model_id": "gpt-audio-mini",
+          "input_price_per_mtok": 0.6,
+          "output_price_per_mtok": 2.4,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-4o-audio-preview",
+          "model_id": "gpt-4o-audio-preview",
+          "input_price_per_mtok": 2.5,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-4o-mini-audio-preview",
+          "model_id": "gpt-4o-mini-audio-preview",
+          "input_price_per_mtok": 0.15,
+          "output_price_per_mtok": 0.6,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "o1",
+          "model_id": "o1",
+          "input_price_per_mtok": 15.0,
+          "output_price_per_mtok": 60.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $7.5/MTok"
+        },
+        {
+          "model_name": "o1-pro",
+          "model_id": "o1-pro",
+          "input_price_per_mtok": 150.0,
+          "output_price_per_mtok": 600.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "o3-pro",
+          "model_id": "o3-pro",
+          "input_price_per_mtok": 20.0,
+          "output_price_per_mtok": 80.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "o3",
+          "model_id": "o3",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 8.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.5/MTok"
+        },
+        {
+          "model_name": "o3-deep-research",
+          "model_id": "o3-deep-research",
+          "input_price_per_mtok": 10.0,
+          "output_price_per_mtok": 40.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $2.5/MTok"
+        },
+        {
+          "model_name": "o4-mini",
+          "model_id": "o4-mini",
+          "input_price_per_mtok": 1.1,
+          "output_price_per_mtok": 4.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.275/MTok"
+        },
+        {
+          "model_name": "o4-mini-deep-research",
+          "model_id": "o4-mini-deep-research",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 8.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.5/MTok"
+        },
+        {
+          "model_name": "o3-mini",
+          "model_id": "o3-mini",
+          "input_price_per_mtok": 1.1,
+          "output_price_per_mtok": 4.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.55/MTok"
+        },
+        {
+          "model_name": "o1-mini",
+          "model_id": "o1-mini",
+          "input_price_per_mtok": 1.1,
+          "output_price_per_mtok": 4.4,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.55/MTok"
+        },
+        {
+          "model_name": "gpt-5.1-codex-mini",
+          "model_id": "gpt-5-1-codex-mini",
+          "input_price_per_mtok": 0.25,
+          "output_price_per_mtok": 2.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.025/MTok"
+        },
+        {
+          "model_name": "codex-mini-latest",
+          "model_id": "codex-mini-latest",
+          "input_price_per_mtok": 1.5,
+          "output_price_per_mtok": 6.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.375/MTok"
+        },
+        {
+          "model_name": "gpt-5-search-api",
+          "model_id": "gpt-5-search-api",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.125/MTok"
+        },
+        {
+          "model_name": "gpt-4o-mini-search-preview",
+          "model_id": "gpt-4o-mini-search-preview",
+          "input_price_per_mtok": 0.15,
+          "output_price_per_mtok": 0.6,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-4o-search-preview",
+          "model_id": "gpt-4o-search-preview",
+          "input_price_per_mtok": 2.5,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "computer-use-preview",
+          "model_id": "computer-use-preview",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 12.0,
+          "context_window": 128000,
+          "notes": "Standard tier"
+        },
+        {
+          "model_name": "gpt-image-1.5",
+          "model_id": "gpt-image-1-5",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $1.25/MTok"
+        },
+        {
+          "model_name": "chatgpt-image-latest",
+          "model_id": "chatgpt-image-latest",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 10.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $1.25/MTok"
+        },
+        {
+          "model_name": "gpt-image-1",
+          "model_id": "gpt-image-1",
+          "input_price_per_mtok": 5.0,
+          "output_price_per_mtok": 0.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $1.25/MTok"
+        },
+        {
+          "model_name": "gpt-image-1-mini",
+          "model_id": "gpt-image-1-mini",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 0.0,
+          "context_window": 128000,
+          "notes": "Standard tier; cached input: $0.2/MTok"
+        }
+      ],
+      "source_url": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "provider": "Gemini",
+      "scraped_at": "2026-02-12T03:03:09.806144",
+      "currency": "USD",
+      "models": [
+        {
+          "model_name": "Gemini 3 Pro Preview",
+          "model_id": "gemini-3-pro-preview",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 12.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 3 Flash Preview",
+          "model_id": "gemini-3-flash-preview",
+          "input_price_per_mtok": 0.5,
+          "output_price_per_mtok": 3.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 3 Pro Image Preview 🍌",
+          "model_id": "gemini-3-pro-image-preview",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 12.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Pro",
+          "model_id": "gemini-2.5-pro",
+          "input_price_per_mtok": 1.25,
+          "output_price_per_mtok": 10.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash",
+          "model_id": "gemini-2.5-flash",
+          "input_price_per_mtok": 0.3,
+          "output_price_per_mtok": 2.5,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash Preview",
+          "model_id": "gemini-2.5-flash-preview-09-2025",
+          "input_price_per_mtok": 0.3,
+          "output_price_per_mtok": 2.5,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash-Lite",
+          "model_id": "gemini-2.5-flash-lite",
+          "input_price_per_mtok": 0.1,
+          "output_price_per_mtok": 0.4,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash-Lite Preview",
+          "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+          "input_price_per_mtok": 0.1,
+          "output_price_per_mtok": 0.4,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash Native Audio (Live API)",
+          "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+          "input_price_per_mtok": 0.3,
+          "output_price_per_mtok": 0.039,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash Image 🍌",
+          "model_id": "gemini-2.5-flash-image",
+          "input_price_per_mtok": 0.3,
+          "output_price_per_mtok": 0.039,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Flash Preview TTS",
+          "model_id": "gemini-2.5-flash-preview-tts",
+          "input_price_per_mtok": 0.5,
+          "output_price_per_mtok": 10.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.5 Pro Preview TTS",
+          "model_id": "gemini-2.5-pro-preview-tts",
+          "input_price_per_mtok": 1.0,
+          "output_price_per_mtok": 20.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.0 Flash",
+          "model_id": "gemini-2.0-flash",
+          "input_price_per_mtok": 0.1,
+          "output_price_per_mtok": 0.4,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini 2.0 Flash-Lite",
+          "model_id": "gemini-2.0-flash-lite",
+          "input_price_per_mtok": 0.075,
+          "output_price_per_mtok": 0.3,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini Embedding",
+          "model_id": "gemini-embedding-001",
+          "input_price_per_mtok": 0.15,
+          "output_price_per_mtok": 0.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
+        {
+          "model_name": "Gemini Robotics-ER 1.5 Preview",
+          "model_id": "gemini-robotics-er-1.5-preview",
+          "input_price_per_mtok": 0.3,
+          "output_price_per_mtok": 2.5,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        }
+      ],
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "provider": "DeepSeek",
+      "scraped_at": "2026-02-12T03:03:09.845392",
+      "currency": "USD",
+      "models": [
+        {
+          "model_name": "Deepseek Chat",
+          "model_id": "deepseek-chat",
+          "input_price_per_mtok": 0.28,
+          "output_price_per_mtok": 0.42,
+          "context_window": 128000,
+          "notes": "Cache miss pricing"
+        },
+        {
+          "model_name": "Deepseek Chat (Cached)",
+          "model_id": "deepseek-chat",
+          "input_price_per_mtok": 0.028,
+          "output_price_per_mtok": 0.42,
+          "context_window": 128000,
+          "notes": "Cache hit pricing"
+        },
+        {
+          "model_name": "Deepseek Reasoner",
+          "model_id": "deepseek-reasoner",
+          "input_price_per_mtok": 0.28,
+          "output_price_per_mtok": 0.42,
+          "context_window": 128000,
+          "notes": "Cache miss pricing"
+        },
+        {
+          "model_name": "Deepseek Reasoner (Cached)",
+          "model_id": "deepseek-reasoner",
+          "input_price_per_mtok": 0.028,
+          "output_price_per_mtok": 0.42,
+          "context_window": 128000,
+          "notes": "Cache hit pricing"
+        }
+      ],
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "provider": "Doubao",
+      "scraped_at": "2026-02-12T03:03:10.377366",
+      "currency": "USD (converted from CNY)",
+      "models": [
+        {
+          "model_name": "doubao-seed-1.8",
+          "model_id": "doubao-seed-1-8",
+          "input_price_per_mtok": 0.1736,
+          "output_price_per_mtok": 1.7363,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.2,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "doubao-seed-code",
+          "model_id": "doubao-seed-code",
+          "input_price_per_mtok": 0.4051,
+          "output_price_per_mtok": 2.315,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.8/¥16.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.8,
+          "original_output_price": 16.0
+        },
+        {
+          "model_name": "doubao-seed-1.6",
+          "model_id": "doubao-seed-1-6",
+          "input_price_per_mtok": 0.1736,
+          "output_price_per_mtok": 1.7363,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.2,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "doubao-seed-1.6-lite",
+          "model_id": "doubao-seed-1-6-lite",
+          "input_price_per_mtok": 0.0868,
+          "output_price_per_mtok": 0.8681,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.6/¥6.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.6,
+          "original_output_price": 6.0
+        },
+        {
+          "model_name": "doubao-seed-1.6-flash",
+          "model_id": "doubao-seed-1-6-flash",
+          "input_price_per_mtok": 0.0434,
+          "output_price_per_mtok": 0.4341,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.3/¥3.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.3,
+          "original_output_price": 3.0
+        },
+        {
+          "model_name": "doubao-seed-1.6-vision",
+          "model_id": "doubao-seed-1-6-vision",
+          "input_price_per_mtok": 0.1736,
+          "output_price_per_mtok": 1.7363,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.2,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "doubao-seed-1.6-thinking",
+          "model_id": "doubao-seed-1-6-thinking",
+          "input_price_per_mtok": 0.1736,
+          "output_price_per_mtok": 1.7363,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.2,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "doubao-seed-translation",
+          "model_id": "doubao-seed-translation",
+          "input_price_per_mtok": 0.0868,
+          "output_price_per_mtok": 0.2604,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.6/¥1.8 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.6,
+          "original_output_price": 1.8
+        },
+        {
+          "model_name": "doubao-1.5-thinking-pro",
+          "model_id": "doubao-1-5-thinking-pro",
+          "input_price_per_mtok": 0.2894,
+          "output_price_per_mtok": 1.1575,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "doubao-1.5-thinking-vision-pro",
+          "model_id": "doubao-1-5-thinking-vision-pro",
+          "input_price_per_mtok": 0.217,
+          "output_price_per_mtok": 0.6511,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.5/¥4.5 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.5,
+          "original_output_price": 4.5
+        },
+        {
+          "model_name": "doubao-1.5-pro-32k",
+          "model_id": "doubao-1-5-pro-32k",
+          "input_price_per_mtok": 0.0579,
+          "output_price_per_mtok": 0.1447,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.4/¥1.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.4,
+          "original_output_price": 1.0
+        },
+        {
+          "model_name": "doubao-1.5-lite-32k",
+          "model_id": "doubao-1-5-lite-32k",
+          "input_price_per_mtok": 0.0217,
+          "output_price_per_mtok": 0.0434,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.15/¥0.3 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.15,
+          "original_output_price": 0.3
+        },
+        {
+          "model_name": "doubao-1.5-vision-pro",
+          "model_id": "doubao-1-5-vision-pro",
+          "input_price_per_mtok": 0.4341,
+          "output_price_per_mtok": 1.3022,
+          "context_window": 128000,
+          "notes": "CNY: ¥3.0/¥9.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 3.0,
+          "original_output_price": 9.0
+        },
+        {
+          "model_name": "doubao-1.5-vision-lite",
+          "model_id": "doubao-1-5-vision-lite",
+          "input_price_per_mtok": 0.217,
+          "output_price_per_mtok": 0.6511,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.5/¥4.5 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.5,
+          "original_output_price": 4.5
+        },
+        {
+          "model_name": "doubao-1.5-ui-tars",
+          "model_id": "doubao-1-5-ui-tars",
+          "input_price_per_mtok": 0.5064,
+          "output_price_per_mtok": 1.7363,
+          "context_window": 128000,
+          "notes": "CNY: ¥3.5/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 3.5,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "doubao-lite-32k",
+          "model_id": "doubao-lite-32k",
+          "input_price_per_mtok": 0.0434,
+          "output_price_per_mtok": 0.0868,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.3/¥0.6 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.3,
+          "original_output_price": 0.6
+        },
+        {
+          "model_name": "GLM-4.7",
+          "model_id": "glm-4-7",
+          "input_price_per_mtok": 0.5788,
+          "output_price_per_mtok": 2.315,
+          "context_window": 128000,
+          "notes": "CNY: ¥4.0/¥16.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 4.0,
+          "original_output_price": 16.0
+        },
+        {
+          "model_name": "deepseek-v3.2",
+          "model_id": "deepseek-v3-2",
+          "input_price_per_mtok": 0.2894,
+          "output_price_per_mtok": 0.4341,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.0/¥3.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.0,
+          "original_output_price": 3.0
+        },
+        {
+          "model_name": "deepseek-v3.1",
+          "model_id": "deepseek-v3-1",
+          "input_price_per_mtok": 0.2894,
+          "output_price_per_mtok": 0.8681,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.0/¥6.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.0,
+          "original_output_price": 6.0
+        },
+        {
+          "model_name": "deepseek-v3",
+          "model_id": "deepseek-v3",
+          "input_price_per_mtok": 0.1447,
+          "output_price_per_mtok": 0.5788,
+          "context_window": 128000,
+          "notes": "CNY: ¥1.0/¥4.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 1.0,
+          "original_output_price": 4.0
+        },
+        {
+          "model_name": "deepseek-r1",
+          "model_id": "deepseek-r1",
+          "input_price_per_mtok": 0.2894,
+          "output_price_per_mtok": 1.1575,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "kimi-k2",
+          "model_id": "kimi-k2",
+          "input_price_per_mtok": 0.2894,
+          "output_price_per_mtok": 1.1575,
+          "context_window": 128000,
+          "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 2.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "doubao-pro-32k",
+          "model_id": "doubao-pro-32k",
+          "input_price_per_mtok": 0.1158,
+          "output_price_per_mtok": 0.2894,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.8/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.8,
+          "original_output_price": 2.0
+        }
+      ],
+      "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh",
+      "exchange_rate": "1 USD = 6.9 CNY",
+      "cny_to_usd_rate": 0.14469
+    }
+  ],
+  "all_models": [
+    {
+      "model_name": "Claude Opus 4.6",
+      "model_id": "claude-opus-4-6",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 25.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Opus 4.5",
+      "model_id": "claude-opus-4-5",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 25.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Opus 4.1",
+      "model_id": "claude-opus-4-1",
+      "input_price_per_mtok": 15.0,
+      "output_price_per_mtok": 75.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Opus 4",
+      "model_id": "claude-opus-4",
+      "input_price_per_mtok": 15.0,
+      "output_price_per_mtok": 75.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 4.5",
+      "model_id": "claude-sonnet-4-5",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 15.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "model_id": "claude-sonnet-4",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 15.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 3.7 (deprecated)",
+      "model_id": "claude-sonnet-3-7--deprecated",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 15.0,
+      "context_window": 200000,
+      "notes": "Deprecated",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Haiku 4.5",
+      "model_id": "claude-haiku-4-5",
+      "input_price_per_mtok": 1.0,
+      "output_price_per_mtok": 5.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Haiku 3.5",
+      "model_id": "claude-haiku-3-5",
+      "input_price_per_mtok": 0.8,
+      "output_price_per_mtok": 4.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Opus 3 (deprecated)",
+      "model_id": "claude-opus-3--deprecated",
+      "input_price_per_mtok": 15.0,
+      "output_price_per_mtok": 75.0,
+      "context_window": 200000,
+      "notes": "Deprecated",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Haiku 3",
+      "model_id": "claude-haiku-3",
+      "input_price_per_mtok": 0.25,
+      "output_price_per_mtok": 1.25,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "gpt-5.2",
+      "model_id": "gpt-5-2",
+      "input_price_per_mtok": 1.75,
+      "output_price_per_mtok": 14.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.175/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.1",
+      "model_id": "gpt-5-1",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5",
+      "model_id": "gpt-5",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "model_id": "gpt-5-mini",
+      "input_price_per_mtok": 0.25,
+      "output_price_per_mtok": 2.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.025/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "model_id": "gpt-5-nano",
+      "input_price_per_mtok": 0.05,
+      "output_price_per_mtok": 0.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.005/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.2-chat-latest",
+      "model_id": "gpt-5-2-chat-latest",
+      "input_price_per_mtok": 1.75,
+      "output_price_per_mtok": 14.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.175/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.1-chat-latest",
+      "model_id": "gpt-5-1-chat-latest",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-chat-latest",
+      "model_id": "gpt-5-chat-latest",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.2-codex",
+      "model_id": "gpt-5-2-codex",
+      "input_price_per_mtok": 1.75,
+      "output_price_per_mtok": 14.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.175/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.1-codex-max",
+      "model_id": "gpt-5-1-codex-max",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.1-codex",
+      "model_id": "gpt-5-1-codex",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-codex",
+      "model_id": "gpt-5-codex",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.2-pro",
+      "model_id": "gpt-5-2-pro",
+      "input_price_per_mtok": 21.0,
+      "output_price_per_mtok": 168.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-pro",
+      "model_id": "gpt-5-pro",
+      "input_price_per_mtok": 15.0,
+      "output_price_per_mtok": 120.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "model_id": "gpt-4-1",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 8.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "model_id": "gpt-4-1-mini",
+      "input_price_per_mtok": 0.4,
+      "output_price_per_mtok": 1.6,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.1/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "model_id": "gpt-4-1-nano",
+      "input_price_per_mtok": 0.1,
+      "output_price_per_mtok": 0.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.025/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o",
+      "model_id": "gpt-4o",
+      "input_price_per_mtok": 2.5,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $1.25/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-2024-05-13",
+      "model_id": "gpt-4o-2024-05-13",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 15.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-mini",
+      "model_id": "gpt-4o-mini",
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.075/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-realtime",
+      "model_id": "gpt-realtime",
+      "input_price_per_mtok": 4.0,
+      "output_price_per_mtok": 16.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.4/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-realtime-mini",
+      "model_id": "gpt-realtime-mini",
+      "input_price_per_mtok": 0.6,
+      "output_price_per_mtok": 2.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.06/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-realtime-preview",
+      "model_id": "gpt-4o-realtime-preview",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 20.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $2.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-mini-realtime-preview",
+      "model_id": "gpt-4o-mini-realtime-preview",
+      "input_price_per_mtok": 0.6,
+      "output_price_per_mtok": 2.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.3/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-audio",
+      "model_id": "gpt-audio",
+      "input_price_per_mtok": 2.5,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-audio-mini",
+      "model_id": "gpt-audio-mini",
+      "input_price_per_mtok": 0.6,
+      "output_price_per_mtok": 2.4,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-audio-preview",
+      "model_id": "gpt-4o-audio-preview",
+      "input_price_per_mtok": 2.5,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-mini-audio-preview",
+      "model_id": "gpt-4o-mini-audio-preview",
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o1",
+      "model_id": "o1",
+      "input_price_per_mtok": 15.0,
+      "output_price_per_mtok": 60.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $7.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o1-pro",
+      "model_id": "o1-pro",
+      "input_price_per_mtok": 150.0,
+      "output_price_per_mtok": 600.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o3-pro",
+      "model_id": "o3-pro",
+      "input_price_per_mtok": 20.0,
+      "output_price_per_mtok": 80.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o3",
+      "model_id": "o3",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 8.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o3-deep-research",
+      "model_id": "o3-deep-research",
+      "input_price_per_mtok": 10.0,
+      "output_price_per_mtok": 40.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $2.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o4-mini",
+      "model_id": "o4-mini",
+      "input_price_per_mtok": 1.1,
+      "output_price_per_mtok": 4.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.275/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o4-mini-deep-research",
+      "model_id": "o4-mini-deep-research",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 8.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.5/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o3-mini",
+      "model_id": "o3-mini",
+      "input_price_per_mtok": 1.1,
+      "output_price_per_mtok": 4.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.55/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "o1-mini",
+      "model_id": "o1-mini",
+      "input_price_per_mtok": 1.1,
+      "output_price_per_mtok": 4.4,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.55/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.1-codex-mini",
+      "model_id": "gpt-5-1-codex-mini",
+      "input_price_per_mtok": 0.25,
+      "output_price_per_mtok": 2.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.025/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "codex-mini-latest",
+      "model_id": "codex-mini-latest",
+      "input_price_per_mtok": 1.5,
+      "output_price_per_mtok": 6.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.375/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5-search-api",
+      "model_id": "gpt-5-search-api",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.125/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-mini-search-preview",
+      "model_id": "gpt-4o-mini-search-preview",
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-4o-search-preview",
+      "model_id": "gpt-4o-search-preview",
+      "input_price_per_mtok": 2.5,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "computer-use-preview",
+      "model_id": "computer-use-preview",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 12.0,
+      "context_window": 128000,
+      "notes": "Standard tier",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-image-1.5",
+      "model_id": "gpt-image-1-5",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $1.25/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "chatgpt-image-latest",
+      "model_id": "chatgpt-image-latest",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 10.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $1.25/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-image-1",
+      "model_id": "gpt-image-1",
+      "input_price_per_mtok": 5.0,
+      "output_price_per_mtok": 0.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $1.25/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-image-1-mini",
+      "model_id": "gpt-image-1-mini",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 0.0,
+      "context_window": 128000,
+      "notes": "Standard tier; cached input: $0.2/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "Gemini 3 Pro Preview",
+      "model_id": "gemini-3-pro-preview",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 12.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 3 Flash Preview",
+      "model_id": "gemini-3-flash-preview",
+      "input_price_per_mtok": 0.5,
+      "output_price_per_mtok": 3.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 3 Pro Image Preview 🍌",
+      "model_id": "gemini-3-pro-image-preview",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 12.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Pro",
+      "model_id": "gemini-2.5-pro",
+      "input_price_per_mtok": 1.25,
+      "output_price_per_mtok": 10.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "model_id": "gemini-2.5-flash",
+      "input_price_per_mtok": 0.3,
+      "output_price_per_mtok": 2.5,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash Preview",
+      "model_id": "gemini-2.5-flash-preview-09-2025",
+      "input_price_per_mtok": 0.3,
+      "output_price_per_mtok": 2.5,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash-Lite",
+      "model_id": "gemini-2.5-flash-lite",
+      "input_price_per_mtok": 0.1,
+      "output_price_per_mtok": 0.4,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash-Lite Preview",
+      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+      "input_price_per_mtok": 0.1,
+      "output_price_per_mtok": 0.4,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash Native Audio (Live API)",
+      "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "input_price_per_mtok": 0.3,
+      "output_price_per_mtok": 0.039,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash Image 🍌",
+      "model_id": "gemini-2.5-flash-image",
+      "input_price_per_mtok": 0.3,
+      "output_price_per_mtok": 0.039,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Flash Preview TTS",
+      "model_id": "gemini-2.5-flash-preview-tts",
+      "input_price_per_mtok": 0.5,
+      "output_price_per_mtok": 10.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.5 Pro Preview TTS",
+      "model_id": "gemini-2.5-pro-preview-tts",
+      "input_price_per_mtok": 1.0,
+      "output_price_per_mtok": 20.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.0 Flash",
+      "model_id": "gemini-2.0-flash",
+      "input_price_per_mtok": 0.1,
+      "output_price_per_mtok": 0.4,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini 2.0 Flash-Lite",
+      "model_id": "gemini-2.0-flash-lite",
+      "input_price_per_mtok": 0.075,
+      "output_price_per_mtok": 0.3,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini Embedding",
+      "model_id": "gemini-embedding-001",
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Gemini Robotics-ER 1.5 Preview",
+      "model_id": "gemini-robotics-er-1.5-preview",
+      "input_price_per_mtok": 0.3,
+      "output_price_per_mtok": 2.5,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
+      "model_name": "Deepseek Chat",
+      "model_id": "deepseek-chat",
+      "input_price_per_mtok": 0.28,
+      "output_price_per_mtok": 0.42,
+      "context_window": 128000,
+      "notes": "Cache miss pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "Deepseek Chat (Cached)",
+      "model_id": "deepseek-chat",
+      "input_price_per_mtok": 0.028,
+      "output_price_per_mtok": 0.42,
+      "context_window": 128000,
+      "notes": "Cache hit pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "Deepseek Reasoner",
+      "model_id": "deepseek-reasoner",
+      "input_price_per_mtok": 0.28,
+      "output_price_per_mtok": 0.42,
+      "context_window": 128000,
+      "notes": "Cache miss pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "Deepseek Reasoner (Cached)",
+      "model_id": "deepseek-reasoner",
+      "input_price_per_mtok": 0.028,
+      "output_price_per_mtok": 0.42,
+      "context_window": 128000,
+      "notes": "Cache hit pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "doubao-seed-1.8",
+      "model_id": "doubao-seed-1-8",
+      "input_price_per_mtok": 0.1736,
+      "output_price_per_mtok": 1.7363,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.2,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-code",
+      "model_id": "doubao-seed-code",
+      "input_price_per_mtok": 0.4051,
+      "output_price_per_mtok": 2.315,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.8/¥16.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.8,
+      "original_output_price": 16.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6",
+      "model_id": "doubao-seed-1-6",
+      "input_price_per_mtok": 0.1736,
+      "output_price_per_mtok": 1.7363,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.2,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-lite",
+      "model_id": "doubao-seed-1-6-lite",
+      "input_price_per_mtok": 0.0868,
+      "output_price_per_mtok": 0.8681,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.6/¥6.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.6,
+      "original_output_price": 6.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-flash",
+      "model_id": "doubao-seed-1-6-flash",
+      "input_price_per_mtok": 0.0434,
+      "output_price_per_mtok": 0.4341,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.3/¥3.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.3,
+      "original_output_price": 3.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-vision",
+      "model_id": "doubao-seed-1-6-vision",
+      "input_price_per_mtok": 0.1736,
+      "output_price_per_mtok": 1.7363,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.2,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-thinking",
+      "model_id": "doubao-seed-1-6-thinking",
+      "input_price_per_mtok": 0.1736,
+      "output_price_per_mtok": 1.7363,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.2/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.2,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-translation",
+      "model_id": "doubao-seed-translation",
+      "input_price_per_mtok": 0.0868,
+      "output_price_per_mtok": 0.2604,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.6/¥1.8 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.6,
+      "original_output_price": 1.8,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-thinking-pro",
+      "model_id": "doubao-1-5-thinking-pro",
+      "input_price_per_mtok": 0.2894,
+      "output_price_per_mtok": 1.1575,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-thinking-vision-pro",
+      "model_id": "doubao-1-5-thinking-vision-pro",
+      "input_price_per_mtok": 0.217,
+      "output_price_per_mtok": 0.6511,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.5/¥4.5 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.5,
+      "original_output_price": 4.5,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-pro-32k",
+      "model_id": "doubao-1-5-pro-32k",
+      "input_price_per_mtok": 0.0579,
+      "output_price_per_mtok": 0.1447,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.4/¥1.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.4,
+      "original_output_price": 1.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-lite-32k",
+      "model_id": "doubao-1-5-lite-32k",
+      "input_price_per_mtok": 0.0217,
+      "output_price_per_mtok": 0.0434,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.15/¥0.3 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.15,
+      "original_output_price": 0.3,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-vision-pro",
+      "model_id": "doubao-1-5-vision-pro",
+      "input_price_per_mtok": 0.4341,
+      "output_price_per_mtok": 1.3022,
+      "context_window": 128000,
+      "notes": "CNY: ¥3.0/¥9.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 3.0,
+      "original_output_price": 9.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-vision-lite",
+      "model_id": "doubao-1-5-vision-lite",
+      "input_price_per_mtok": 0.217,
+      "output_price_per_mtok": 0.6511,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.5/¥4.5 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.5,
+      "original_output_price": 4.5,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-ui-tars",
+      "model_id": "doubao-1-5-ui-tars",
+      "input_price_per_mtok": 0.5064,
+      "output_price_per_mtok": 1.7363,
+      "context_window": 128000,
+      "notes": "CNY: ¥3.5/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 3.5,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-lite-32k",
+      "model_id": "doubao-lite-32k",
+      "input_price_per_mtok": 0.0434,
+      "output_price_per_mtok": 0.0868,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.3/¥0.6 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.3,
+      "original_output_price": 0.6,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "GLM-4.7",
+      "model_id": "glm-4-7",
+      "input_price_per_mtok": 0.5788,
+      "output_price_per_mtok": 2.315,
+      "context_window": 128000,
+      "notes": "CNY: ¥4.0/¥16.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 4.0,
+      "original_output_price": 16.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3.2",
+      "model_id": "deepseek-v3-2",
+      "input_price_per_mtok": 0.2894,
+      "output_price_per_mtok": 0.4341,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.0/¥3.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.0,
+      "original_output_price": 3.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3.1",
+      "model_id": "deepseek-v3-1",
+      "input_price_per_mtok": 0.2894,
+      "output_price_per_mtok": 0.8681,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.0/¥6.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.0,
+      "original_output_price": 6.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3",
+      "model_id": "deepseek-v3",
+      "input_price_per_mtok": 0.1447,
+      "output_price_per_mtok": 0.5788,
+      "context_window": 128000,
+      "notes": "CNY: ¥1.0/¥4.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 1.0,
+      "original_output_price": 4.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-r1",
+      "model_id": "deepseek-r1",
+      "input_price_per_mtok": 0.2894,
+      "output_price_per_mtok": 1.1575,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "kimi-k2",
+      "model_id": "kimi-k2",
+      "input_price_per_mtok": 0.2894,
+      "output_price_per_mtok": 1.1575,
+      "context_window": 128000,
+      "notes": "CNY: ¥2.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 2.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-pro-32k",
+      "model_id": "doubao-pro-32k",
+      "input_price_per_mtok": 0.1158,
+      "output_price_per_mtok": 0.2894,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.8/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.8,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    }
+  ]
+}
