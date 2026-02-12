@@ -1,4 +1,4 @@
-name: Scrape LLM Pricing
+name: scrape-llm-pricing
 
 on:
   schedule:
