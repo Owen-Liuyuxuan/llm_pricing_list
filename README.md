@@ -2,6 +2,8 @@
 
 Automated daily scraper and beautiful visualization dashboard for tracking pricing across major LLM providers.
 
+https://owen-liuyuxuan.github.io/llm_pricing_list/
+
 ## Features
 
 - 🤖 **Multi-Provider Support**: Claude, OpenAI, Gemini, DeepSeek, Doubao
@@ -26,7 +28,7 @@ Automated daily scraper and beautiful visualization dashboard for tracking prici
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/llm-pricing-tracker.git
+git clone git@github.com:Owen-Liuyuxuan/llm_pricing_list.git
 cd llm-pricing-tracker
 ```
 
@@ -47,18 +49,6 @@ Alternatively with pip: `pip install -r requirements.txt`
 uv run python scrape.py
 # or: python scrape.py
 ```
-
-### 4. Enable GitHub Pages
-
-1. Go to repository Settings → Pages
-2. Set source to "gh-pages" branch
-3. Your dashboard will be available at: `https://yourusername.github.io/llm-pricing-tracker/`
-
-### 5. Configure GitHub Actions
-
-The workflow runs:
-- **Weekly** on Sunday at 00:00 UTC
-- **Manual trigger** via Actions tab → "Run workflow"
 
 ## Project Structure
 
@@ -136,108 +126,3 @@ self.scrapers = [
     NewProviderScraper()
 ]
 ```
-
-### Modify Scraping Schedule
-
-Edit `.github/workflows/scrape-pricing.yaml`:
-
-```yaml
-schedule:
-  # Run weekly on Sunday at 00:00 UTC
-  - cron: '0 0 * * 0'
-```
-
-## Development
-
-### Run Tests
-
-```bash
-python -m pytest tests/
-```
-
-### Lint Code
-
-```bash
-black scrapers/ scrape.py
-flake8 scrapers/ scrape.py
-mypy scrapers/ scrape.py
-```
-
-## Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## License
-
-MIT License - see LICENSE file for details
-
-## Acknowledgments
-
-- Pricing data from official provider documentation
-- Built with Python, BeautifulSoup, and GitHub Actions
-- Dashboard uses vanilla JavaScript (no frameworks)
-
-## Roadmap
-
-- [ ] Add more providers (Cohere, Mistral, etc.)
-- [ ] Historical price change graphs
-- [ ] Email notifications for price changes
-- [ ] API endpoint for programmatic access
-- [ ] Cost calculator tool
-- [ ] Multi-currency support
-
-## Support
-
-For issues or questions:
-- Open an issue on GitHub
-- Check existing issues for solutions
-- Contribute fixes via Pull Requests
-```
-
-## Usage Instructions
-
-### Quick Start
-
-1. **Create the repository structure**:
-```bash
-mkdir -p llm-pricing-tracker/{.github/workflows,scrapers,data/history,docs}
-cd llm-pricing-tracker
-```
-
-2. **Copy all the code files** into their respective locations
-
-3. **Initialize git and push to GitHub**:
-```bash
-git init
-git add .
-git commit -m "Initial commit: LLM pricing tracker"
-git branch -M main
-git remote add origin https://github.com/yourusername/llm-pricing-tracker.git
-git push -u origin main
-```
-
-4. **Enable GitHub Pages**:
-   - Go to Settings → Pages
-   - Source: Deploy from branch `gh-pages`
-   - Wait for first workflow run to create the branch
-
-5. **Access your dashboard**:
-   - Visit: `https://yourusername.github.io/llm-pricing-tracker/`
-
-### Key Features
-
-✅ **Automated Scraping**: Runs weekly via GitHub Actions (or manual trigger)  
-✅ **Beautiful UI**: Modern, responsive dashboard with gradients and animations  
-✅ **Real-time Filtering**: Search, sort, and filter by provider  
-✅ **Historical Tracking**: Saves daily snapshots for trend analysis  
-✅ **Multi-Provider**: Covers 5 major LLM providers  
-✅ **No Backend Required**: Pure static site on GitHub Pages  
-✅ **Easy to Extend**: Modular scraper architecture  
-
-The system is production-ready and follows best practices for Python code (type hints, docstrings, error handling) and is compatible with Ubuntu 22.04 as requested!
