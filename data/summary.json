@@ -1,0 +1,28 @@
+{
+  "total_providers": 5,
+  "total_models": 101,
+  "cheapest_input": {
+    "provider": "Doubao",
+    "model": "doubao-1.5-lite-32k",
+    "input_price": 0.0217,
+    "output_price": 0.0434
+  },
+  "cheapest_output": {
+    "provider": "OpenAI",
+    "model": "gpt-image-1",
+    "input_price": 5.0,
+    "output_price": 0.0
+  },
+  "most_expensive_input": {
+    "provider": "OpenAI",
+    "model": "o1-pro",
+    "input_price": 150.0,
+    "output_price": 600.0
+  },
+  "most_expensive_output": {
+    "provider": "OpenAI",
+    "model": "o1-pro",
+    "input_price": 150.0,
+    "output_price": 600.0
+  }
+}
