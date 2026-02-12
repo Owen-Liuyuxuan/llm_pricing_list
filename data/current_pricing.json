@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-02-12T03:03:07.377537",
+  "scraped_at": "2026-02-12T03:07:24.563114",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-02-12T03:03:08.494439",
+      "scraped_at": "2026-02-12T03:07:26.072823",
       "currency": "USD",
       "models": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-02-12T03:03:08.593226",
+      "scraped_at": "2026-02-12T03:07:26.366921",
       "currency": "USD",
       "models": [
         {
@@ -483,7 +483,7 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-02-12T03:03:09.806144",
+      "scraped_at": "2026-02-12T03:07:27.317122",
       "currency": "USD",
       "models": [
         {
@@ -619,7 +619,7 @@
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-02-12T03:03:09.845392",
+      "scraped_at": "2026-02-12T03:07:28.915917",
       "currency": "USD",
       "models": [
         {
@@ -659,7 +659,7 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-02-12T03:03:10.377366",
+      "scraped_at": "2026-02-12T03:07:30.709859",
       "currency": "USD (converted from CNY)",
       "models": [
         {
