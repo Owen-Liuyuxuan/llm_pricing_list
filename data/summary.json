@@ -1,6 +1,6 @@
 {
   "total_providers": 5,
-  "total_models": 101,
+  "total_models": 105,
   "cheapest_input": {
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
