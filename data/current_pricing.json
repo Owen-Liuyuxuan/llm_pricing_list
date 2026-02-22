@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-02-15T02:56:37.445565",
+  "scraped_at": "2026-02-22T02:51:55.135288",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-02-15T02:56:38.981689",
+      "scraped_at": "2026-02-22T02:51:56.422925",
       "currency": "USD",
       "models": [
         {
@@ -35,6 +35,14 @@
           "model_id": "claude-opus-4",
           "input_price_per_mtok": 15.0,
           "output_price_per_mtok": 75.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Sonnet 4.6",
+          "model_id": "claude-sonnet-4-6",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 15.0,
           "context_window": 200000,
           "notes": "Base input and output pricing"
         },
@@ -99,7 +107,7 @@
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-02-15T02:56:39.174333",
+      "scraped_at": "2026-02-22T02:51:56.725527",
       "currency": "USD",
       "models": [
         {
@@ -483,9 +491,17 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-02-15T02:56:40.083267",
+      "scraped_at": "2026-02-22T02:51:59.554265",
       "currency": "USD",
       "models": [
+        {
+          "model_name": "Gemini 3.1 Pro Preview",
+          "model_id": "gemini-3.1-pro-preview",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 12.0,
+          "context_window": 200000,
+          "notes": "Standard tier; prompts <= 200k"
+        },
         {
           "model_name": "Gemini 3 Pro Preview",
           "model_id": "gemini-3-pro-preview",
@@ -521,14 +537,6 @@
         {
           "model_name": "Gemini 2.5 Flash",
           "model_id": "gemini-2.5-flash",
-          "input_price_per_mtok": 0.3,
-          "output_price_per_mtok": 2.5,
-          "context_window": 200000,
-          "notes": "Standard tier; prompts <= 200k"
-        },
-        {
-          "model_name": "Gemini 2.5 Flash Preview",
-          "model_id": "gemini-2.5-flash-preview-09-2025",
           "input_price_per_mtok": 0.3,
           "output_price_per_mtok": 2.5,
           "context_window": 200000,
@@ -619,7 +627,7 @@
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-02-15T02:56:41.084378",
+      "scraped_at": "2026-02-22T02:52:00.676120",
       "currency": "USD",
       "models": [
         {
@@ -659,14 +667,14 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-02-15T02:56:43.174440",
+      "scraped_at": "2026-02-22T02:52:03.373183",
       "currency": "USD (converted from CNY)",
       "models": [
         {
           "model_name": "doubao-seed-2.0-pro",
           "model_id": "doubao-seed-2-0-pro",
           "input_price_per_mtok": 1.3896,
-          "output_price_per_mtok": 6.9479,
+          "output_price_per_mtok": 6.9478,
           "context_window": 128000,
           "notes": "CNY: ¥9.6/¥48.0 per 1M tokens",
           "original_currency": "CNY",
@@ -699,7 +707,7 @@
           "model_name": "doubao-seed-2.0-code",
           "model_id": "doubao-seed-2-0-code",
           "input_price_per_mtok": 1.3896,
-          "output_price_per_mtok": 6.9479,
+          "output_price_per_mtok": 6.9478,
           "context_window": 128000,
           "notes": "CNY: ¥9.6/¥48.0 per 1M tokens",
           "original_currency": "CNY",
@@ -721,7 +729,7 @@
           "model_name": "doubao-seed-code",
           "model_id": "doubao-seed-code",
           "input_price_per_mtok": 0.4053,
-          "output_price_per_mtok": 2.316,
+          "output_price_per_mtok": 2.3159,
           "context_window": 128000,
           "notes": "CNY: ¥2.8/¥16.0 per 1M tokens",
           "original_currency": "CNY",
@@ -886,7 +894,7 @@
           "model_name": "GLM-4.7",
           "model_id": "glm-4-7",
           "input_price_per_mtok": 0.579,
-          "output_price_per_mtok": 2.316,
+          "output_price_per_mtok": 2.3159,
           "context_window": 128000,
           "notes": "CNY: ¥4.0/¥16.0 per 1M tokens",
           "original_currency": "CNY",
@@ -962,7 +970,7 @@
       ],
       "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh",
       "exchange_rate": "1 USD = 6.9 CNY",
-      "cny_to_usd_rate": 0.144747
+      "cny_to_usd_rate": 0.144746
     }
   ],
   "all_models": [
@@ -998,6 +1006,15 @@
       "model_id": "claude-opus-4",
       "input_price_per_mtok": 15.0,
       "output_price_per_mtok": 75.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "model_id": "claude-sonnet-4-6",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 15.0,
       "context_window": 200000,
       "notes": "Base input and output pricing",
       "provider": "Claude"
@@ -1489,6 +1506,15 @@
       "provider": "OpenAI"
     },
     {
+      "model_name": "Gemini 3.1 Pro Preview",
+      "model_id": "gemini-3.1-pro-preview",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 12.0,
+      "context_window": 200000,
+      "notes": "Standard tier; prompts <= 200k",
+      "provider": "Gemini"
+    },
+    {
       "model_name": "Gemini 3 Pro Preview",
       "model_id": "gemini-3-pro-preview",
       "input_price_per_mtok": 2.0,
@@ -1527,15 +1553,6 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "model_id": "gemini-2.5-flash",
-      "input_price_per_mtok": 0.3,
-      "output_price_per_mtok": 2.5,
-      "context_window": 200000,
-      "notes": "Standard tier; prompts <= 200k",
-      "provider": "Gemini"
-    },
-    {
-      "model_name": "Gemini 2.5 Flash Preview",
-      "model_id": "gemini-2.5-flash-preview-09-2025",
       "input_price_per_mtok": 0.3,
       "output_price_per_mtok": 2.5,
       "context_window": 200000,
@@ -1672,7 +1689,7 @@
       "model_name": "doubao-seed-2.0-pro",
       "model_id": "doubao-seed-2-0-pro",
       "input_price_per_mtok": 1.3896,
-      "output_price_per_mtok": 6.9479,
+      "output_price_per_mtok": 6.9478,
       "context_window": 128000,
       "notes": "CNY: ¥9.6/¥48.0 per 1M tokens",
       "original_currency": "CNY",
@@ -1708,7 +1725,7 @@
       "model_name": "doubao-seed-2.0-code",
       "model_id": "doubao-seed-2-0-code",
       "input_price_per_mtok": 1.3896,
-      "output_price_per_mtok": 6.9479,
+      "output_price_per_mtok": 6.9478,
       "context_window": 128000,
       "notes": "CNY: ¥9.6/¥48.0 per 1M tokens",
       "original_currency": "CNY",
@@ -1732,7 +1749,7 @@
       "model_name": "doubao-seed-code",
       "model_id": "doubao-seed-code",
       "input_price_per_mtok": 0.4053,
-      "output_price_per_mtok": 2.316,
+      "output_price_per_mtok": 2.3159,
       "context_window": 128000,
       "notes": "CNY: ¥2.8/¥16.0 per 1M tokens",
       "original_currency": "CNY",
@@ -1912,7 +1929,7 @@
       "model_name": "GLM-4.7",
       "model_id": "glm-4-7",
       "input_price_per_mtok": 0.579,
-      "output_price_per_mtok": 2.316,
+      "output_price_per_mtok": 2.3159,
       "context_window": 128000,
       "notes": "CNY: ¥4.0/¥16.0 per 1M tokens",
       "original_currency": "CNY",
