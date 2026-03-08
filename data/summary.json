@@ -1,11 +1,11 @@
 {
   "total_providers": 5,
-  "total_models": 110,
+  "total_models": 114,
   "cheapest_input": {
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
-    "input_price": 0.0219,
-    "output_price": 0.0437
+    "input_price": 0.0217,
+    "output_price": 0.0434
   },
   "cheapest_output": {
     "provider": "OpenAI",
