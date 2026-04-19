@@ -1,11 +1,11 @@
 {
   "total_providers": 5,
-  "total_models": 96,
+  "total_models": 99,
   "cheapest_input": {
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
     "input_price": 0.022,
-    "output_price": 0.0439
+    "output_price": 0.044
   },
   "cheapest_output": {
     "provider": "Gemini",
