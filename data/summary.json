@@ -1,15 +1,15 @@
 {
   "total_providers": 5,
-  "total_models": 99,
+  "total_models": 101,
   "cheapest_input": {
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
-    "input_price": 0.022,
-    "output_price": 0.044
+    "input_price": 0.0219,
+    "output_price": 0.0439
   },
   "cheapest_output": {
     "provider": "Gemini",
-    "model": "Gemini Embedding 2 Preview",
+    "model": "Gemini Embedding 2",
     "input_price": 12.0,
     "output_price": 0.0
   },
