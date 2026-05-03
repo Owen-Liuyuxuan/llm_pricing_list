@@ -1,11 +1,11 @@
 {
   "total_providers": 5,
-  "total_models": 101,
+  "total_models": 100,
   "cheapest_input": {
-    "provider": "Doubao",
-    "model": "doubao-1.5-lite-32k",
-    "input_price": 0.0219,
-    "output_price": 0.0439
+    "provider": "DeepSeek",
+    "model": "Deepseek V4 Flash(1) (Cached)",
+    "input_price": 0.0036,
+    "output_price": 0.87
   },
   "cheapest_output": {
     "provider": "Gemini",
