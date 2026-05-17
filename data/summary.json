@@ -1,6 +1,6 @@
 {
   "total_providers": 5,
-  "total_models": 101,
+  "total_models": 77,
   "cheapest_input": {
     "provider": "DeepSeek",
     "model": "Deepseek V4 Flash(1) (Cached)",
@@ -8,10 +8,10 @@
     "output_price": 0.87
   },
   "cheapest_output": {
-    "provider": "Gemini",
-    "model": "Gemini Embedding 2",
-    "input_price": 12.0,
-    "output_price": 0.0
+    "provider": "Doubao",
+    "model": "doubao-1.5-lite-32k",
+    "input_price": 0.022,
+    "output_price": 0.044
   },
   "most_expensive_input": {
     "provider": "OpenAI",
