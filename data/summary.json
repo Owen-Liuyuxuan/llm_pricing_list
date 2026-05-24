@@ -10,8 +10,8 @@
   "cheapest_output": {
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
-    "input_price": 0.022,
-    "output_price": 0.044
+    "input_price": 0.0221,
+    "output_price": 0.0441
   },
   "most_expensive_input": {
     "provider": "OpenAI",
