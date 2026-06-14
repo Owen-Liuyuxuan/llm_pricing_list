@@ -1,6 +1,6 @@
 {
   "total_providers": 5,
-  "total_models": 80,
+  "total_models": 82,
   "cheapest_input": {
     "provider": "DeepSeek",
     "model": "Deepseek V4 Flash(1) (Cached)",
@@ -11,7 +11,7 @@
     "provider": "Doubao",
     "model": "doubao-1.5-lite-32k",
     "input_price": 0.0222,
-    "output_price": 0.0443
+    "output_price": 0.0444
   },
   "most_expensive_input": {
     "provider": "OpenAI",
