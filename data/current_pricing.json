@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-06-28T04:40:07.878304",
+  "scraped_at": "2026-07-05T04:09:41.452571",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-06-28T04:40:09.080736",
+      "scraped_at": "2026-07-05T04:09:42.706988",
       "currency": "USD",
       "models": [
         {
@@ -71,6 +71,22 @@
           "notes": "Base input and output pricing"
         },
         {
+          "model_name": "Claude Sonnet 5through August 31, 2026",
+          "model_id": "claude-sonnet-5through-august-31--2026",
+          "input_price_per_mtok": 2.0,
+          "output_price_per_mtok": 10.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Sonnet 5starting September 1, 2026",
+          "model_id": "claude-sonnet-5starting-september-1--2026",
+          "input_price_per_mtok": 3.0,
+          "output_price_per_mtok": 15.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
           "model_name": "Claude Sonnet 4.6",
           "model_id": "claude-sonnet-4-6",
           "input_price_per_mtok": 3.0,
@@ -115,7 +131,7 @@
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-06-28T04:40:09.214896",
+      "scraped_at": "2026-07-05T04:09:42.845443",
       "currency": "USD",
       "models": [
         {
@@ -459,14 +475,14 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-06-28T04:40:10.551070",
+      "scraped_at": "2026-07-05T04:09:44.243058",
       "currency": "USD",
       "models": [],
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-06-28T04:40:11.393755",
+      "scraped_at": "2026-07-05T04:09:45.418003",
       "currency": "USD",
       "models": [
         {
@@ -506,10 +522,310 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-06-28T04:40:13.219732",
-      "currency": "USD",
-      "models": [],
-      "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh"
+      "scraped_at": "2026-07-05T04:09:48.074671",
+      "currency": "USD (converted from CNY)",
+      "models": [
+        {
+          "model_name": "doubao-seed-evolving",
+          "model_id": "doubao-seed-evolving",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 4.4238,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥30.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 30.0
+        },
+        {
+          "model_name": "doubao-seed-2.1-pro",
+          "model_id": "doubao-seed-2-1-pro",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 4.4238,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥30.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 30.0
+        },
+        {
+          "model_name": "doubao-seed-2.1-turbo",
+          "model_id": "doubao-seed-2-1-turbo",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 2.2119,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥15.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 15.0
+        },
+        {
+          "model_name": "doubao-seed-2.0-pro",
+          "model_id": "doubao-seed-2-0-pro",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 2.3594,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 16.0
+        },
+        {
+          "model_name": "doubao-seed-2.0-lite",
+          "model_id": "doubao-seed-2-0-lite",
+          "input_price_per_mtok": 1.9907,
+          "output_price_per_mtok": 0.7963,
+          "context_window": 128000,
+          "notes": "CNY: ¥13.5/¥5.4 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 13.5,
+          "original_output_price": 5.4
+        },
+        {
+          "model_name": "doubao-seed-2.0-mini",
+          "model_id": "doubao-seed-2-0-mini",
+          "input_price_per_mtok": 0.8848,
+          "output_price_per_mtok": 0.5898,
+          "context_window": 128000,
+          "notes": "CNY: ¥6.0/¥4.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 6.0,
+          "original_output_price": 4.0
+        },
+        {
+          "model_name": "doubao-seed-2.0-code",
+          "model_id": "doubao-seed-2-0-code",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 2.3594,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 16.0
+        },
+        {
+          "model_name": "doubao-seed-1.8",
+          "model_id": "doubao-seed-1-8",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        },
+        {
+          "model_name": "doubao-seed-character",
+          "model_id": "doubao-seed-character",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        },
+        {
+          "model_name": "doubao-seed-code",
+          "model_id": "doubao-seed-code",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.1797,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "doubao-seed-1.6",
+          "model_id": "doubao-seed-1-6",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        },
+        {
+          "model_name": "doubao-seed-1.6-lite",
+          "model_id": "doubao-seed-1-6-lite",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.0885,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥0.6 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 0.6
+        },
+        {
+          "model_name": "doubao-seed-1.6-flash",
+          "model_id": "doubao-seed-1-6-flash",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2212,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥1.5 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 1.5
+        },
+        {
+          "model_name": "doubao-seed-1.6-vision",
+          "model_id": "doubao-seed-1-6-vision",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.1797,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "doubao-seed-translation",
+          "model_id": "doubao-seed-translation",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.5309,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥3.6 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 3.6
+        },
+        {
+          "model_name": "doubao-1.5-pro-32k",
+          "model_id": "doubao-1-5-pro-32k",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        },
+        {
+          "model_name": "doubao-1.5-lite-32k",
+          "model_id": "doubao-1-5-lite-32k",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.0885,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥0.6 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 0.6
+        },
+        {
+          "model_name": "doubao-1.5-vision-pro",
+          "model_id": "doubao-1-5-vision-pro",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.3271,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥9.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 9.0
+        },
+        {
+          "model_name": "glm-5.2",
+          "model_id": "glm-5-2",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 4.1289,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥28.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 28.0
+        },
+        {
+          "model_name": "glm-4.7",
+          "model_id": "glm-4-7",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.1797,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "deepseek-v4-pro",
+          "model_id": "deepseek-v4-pro",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 3.5391,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥24.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 24.0
+        },
+        {
+          "model_name": "deepseek-v4-flash",
+          "model_id": "deepseek-v4-flash",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        },
+        {
+          "model_name": "deepseek-v3.2",
+          "model_id": "deepseek-v3-2",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.4424,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥3.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 3.0
+        },
+        {
+          "model_name": "deepseek-v3.1",
+          "model_id": "deepseek-v3-1",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.7695,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥12.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 12.0
+        },
+        {
+          "model_name": "deepseek-v3",
+          "model_id": "deepseek-v3",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 1.1797,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 8.0
+        },
+        {
+          "model_name": "deepseek-r1",
+          "model_id": "deepseek-r1",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 2.3594,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 16.0
+        },
+        {
+          "model_name": "doubao-pro-32k",
+          "model_id": "doubao-pro-32k",
+          "input_price_per_mtok": 0.0,
+          "output_price_per_mtok": 0.2949,
+          "context_window": 128000,
+          "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+          "original_currency": "CNY",
+          "original_input_price": 0.0,
+          "original_output_price": 2.0
+        }
+      ],
+      "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh",
+      "exchange_rate": "1 USD = 6.8 CNY",
+      "cny_to_usd_rate": 0.147461
     }
   ],
   "all_models": [
@@ -581,6 +897,24 @@
       "model_id": "claude-opus-4--retired--except-on-google-cloud",
       "input_price_per_mtok": 15.0,
       "output_price_per_mtok": 75.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 5through August 31, 2026",
+      "model_id": "claude-sonnet-5through-august-31--2026",
+      "input_price_per_mtok": 2.0,
+      "output_price_per_mtok": 10.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Sonnet 5starting September 1, 2026",
+      "model_id": "claude-sonnet-5starting-september-1--2026",
+      "input_price_per_mtok": 3.0,
+      "output_price_per_mtok": 15.0,
       "context_window": 200000,
       "notes": "Base input and output pricing",
       "provider": "Claude"
@@ -1043,6 +1377,330 @@
       "context_window": 1000000,
       "notes": "Cache hit pricing",
       "provider": "DeepSeek"
+    },
+    {
+      "model_name": "doubao-seed-evolving",
+      "model_id": "doubao-seed-evolving",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 4.4238,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥30.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 30.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.1-pro",
+      "model_id": "doubao-seed-2-1-pro",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 4.4238,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥30.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 30.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.1-turbo",
+      "model_id": "doubao-seed-2-1-turbo",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 2.2119,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥15.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 15.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.0-pro",
+      "model_id": "doubao-seed-2-0-pro",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 2.3594,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 16.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.0-lite",
+      "model_id": "doubao-seed-2-0-lite",
+      "input_price_per_mtok": 1.9907,
+      "output_price_per_mtok": 0.7963,
+      "context_window": 128000,
+      "notes": "CNY: ¥13.5/¥5.4 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 13.5,
+      "original_output_price": 5.4,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.0-mini",
+      "model_id": "doubao-seed-2-0-mini",
+      "input_price_per_mtok": 0.8848,
+      "output_price_per_mtok": 0.5898,
+      "context_window": 128000,
+      "notes": "CNY: ¥6.0/¥4.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 6.0,
+      "original_output_price": 4.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-2.0-code",
+      "model_id": "doubao-seed-2-0-code",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 2.3594,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 16.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.8",
+      "model_id": "doubao-seed-1-8",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-character",
+      "model_id": "doubao-seed-character",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-code",
+      "model_id": "doubao-seed-code",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.1797,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6",
+      "model_id": "doubao-seed-1-6",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-lite",
+      "model_id": "doubao-seed-1-6-lite",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.0885,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥0.6 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 0.6,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-flash",
+      "model_id": "doubao-seed-1-6-flash",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2212,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥1.5 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 1.5,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-1.6-vision",
+      "model_id": "doubao-seed-1-6-vision",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.1797,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-seed-translation",
+      "model_id": "doubao-seed-translation",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.5309,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥3.6 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 3.6,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-pro-32k",
+      "model_id": "doubao-1-5-pro-32k",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-lite-32k",
+      "model_id": "doubao-1-5-lite-32k",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.0885,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥0.6 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 0.6,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-1.5-vision-pro",
+      "model_id": "doubao-1-5-vision-pro",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.3271,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥9.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 9.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "glm-5.2",
+      "model_id": "glm-5-2",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 4.1289,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥28.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 28.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "glm-4.7",
+      "model_id": "glm-4-7",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.1797,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v4-pro",
+      "model_id": "deepseek-v4-pro",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 3.5391,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥24.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 24.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v4-flash",
+      "model_id": "deepseek-v4-flash",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3.2",
+      "model_id": "deepseek-v3-2",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.4424,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥3.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 3.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3.1",
+      "model_id": "deepseek-v3-1",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.7695,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥12.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 12.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-v3",
+      "model_id": "deepseek-v3",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 1.1797,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥8.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 8.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "deepseek-r1",
+      "model_id": "deepseek-r1",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 2.3594,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥16.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 16.0,
+      "provider": "Doubao"
+    },
+    {
+      "model_name": "doubao-pro-32k",
+      "model_id": "doubao-pro-32k",
+      "input_price_per_mtok": 0.0,
+      "output_price_per_mtok": 0.2949,
+      "context_window": 128000,
+      "notes": "CNY: ¥0.0/¥2.0 per 1M tokens",
+      "original_currency": "CNY",
+      "original_input_price": 0.0,
+      "original_output_price": 2.0,
+      "provider": "Doubao"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "total_providers": 5,
-  "total_models": 59,
+  "total_models": 88,
   "cheapest_input": {
     "provider": "DeepSeek",
     "model": "Deepseek V4 Flash(1) (Cached)",
