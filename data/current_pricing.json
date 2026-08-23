@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-08-16T01:47:45.758393",
+  "scraped_at": "2026-08-23T01:49:35.356804",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-08-16T01:47:46.914473",
+      "scraped_at": "2026-08-23T01:49:36.453249",
       "currency": "USD",
       "models": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-08-16T01:47:47.091669",
+      "scraped_at": "2026-08-23T01:49:36.667889",
       "currency": "USD",
       "models": [
         {
@@ -355,45 +355,61 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-08-16T01:47:48.228449",
+      "scraped_at": "2026-08-23T01:49:37.739307",
       "currency": "USD",
       "models": [],
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-08-16T01:47:49.441711",
+      "scraped_at": "2026-08-23T01:49:41.040472",
       "currency": "USD",
       "models": [
         {
           "model_name": "Deepseek V4 Flash",
           "model_id": "deepseek-v4-flash",
-          "input_price_per_mtok": 0.435,
-          "output_price_per_mtok": 0.87,
+          "input_price_per_mtok": 0.22,
+          "output_price_per_mtok": 0.66,
           "context_window": 1000000,
           "notes": "Cache miss pricing"
         },
         {
           "model_name": "Deepseek V4 Flash (Cached)",
           "model_id": "deepseek-v4-flash",
-          "input_price_per_mtok": 0.0036,
-          "output_price_per_mtok": 0.87,
+          "input_price_per_mtok": 0.007,
+          "output_price_per_mtok": 0.66,
           "context_window": 1000000,
           "notes": "Cache hit pricing"
         },
         {
           "model_name": "Deepseek V4 Pro",
           "model_id": "deepseek-v4-pro",
-          "input_price_per_mtok": 0.435,
-          "output_price_per_mtok": 0.87,
+          "input_price_per_mtok": 0.22,
+          "output_price_per_mtok": 0.66,
           "context_window": 1000000,
           "notes": "Cache miss pricing"
         },
         {
           "model_name": "Deepseek V4 Pro (Cached)",
           "model_id": "deepseek-v4-pro",
-          "input_price_per_mtok": 0.0036,
-          "output_price_per_mtok": 0.87,
+          "input_price_per_mtok": 0.007,
+          "output_price_per_mtok": 0.66,
+          "context_window": 1000000,
+          "notes": "Cache hit pricing"
+        },
+        {
+          "model_name": "Deepseek V4 Flash Vision Exp",
+          "model_id": "deepseek-v4-flash-vision-exp",
+          "input_price_per_mtok": 0.22,
+          "output_price_per_mtok": 0.66,
+          "context_window": 1000000,
+          "notes": "Cache miss pricing"
+        },
+        {
+          "model_name": "Deepseek V4 Flash Vision Exp (Cached)",
+          "model_id": "deepseek-v4-flash-vision-exp",
+          "input_price_per_mtok": 0.007,
+          "output_price_per_mtok": 0.66,
           "context_window": 1000000,
           "notes": "Cache hit pricing"
         }
@@ -402,7 +418,7 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-08-16T01:47:52.870745",
+      "scraped_at": "2026-08-23T01:49:44.387474",
       "currency": "USD",
       "models": [],
       "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh"
@@ -790,8 +806,8 @@
     {
       "model_name": "Deepseek V4 Flash",
       "model_id": "deepseek-v4-flash",
-      "input_price_per_mtok": 0.435,
-      "output_price_per_mtok": 0.87,
+      "input_price_per_mtok": 0.22,
+      "output_price_per_mtok": 0.66,
       "context_window": 1000000,
       "notes": "Cache miss pricing",
       "provider": "DeepSeek"
@@ -799,8 +815,8 @@
     {
       "model_name": "Deepseek V4 Flash (Cached)",
       "model_id": "deepseek-v4-flash",
-      "input_price_per_mtok": 0.0036,
-      "output_price_per_mtok": 0.87,
+      "input_price_per_mtok": 0.007,
+      "output_price_per_mtok": 0.66,
       "context_window": 1000000,
       "notes": "Cache hit pricing",
       "provider": "DeepSeek"
@@ -808,8 +824,8 @@
     {
       "model_name": "Deepseek V4 Pro",
       "model_id": "deepseek-v4-pro",
-      "input_price_per_mtok": 0.435,
-      "output_price_per_mtok": 0.87,
+      "input_price_per_mtok": 0.22,
+      "output_price_per_mtok": 0.66,
       "context_window": 1000000,
       "notes": "Cache miss pricing",
       "provider": "DeepSeek"
@@ -817,8 +833,26 @@
     {
       "model_name": "Deepseek V4 Pro (Cached)",
       "model_id": "deepseek-v4-pro",
-      "input_price_per_mtok": 0.0036,
-      "output_price_per_mtok": 0.87,
+      "input_price_per_mtok": 0.007,
+      "output_price_per_mtok": 0.66,
+      "context_window": 1000000,
+      "notes": "Cache hit pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "Deepseek V4 Flash Vision Exp",
+      "model_id": "deepseek-v4-flash-vision-exp",
+      "input_price_per_mtok": 0.22,
+      "output_price_per_mtok": 0.66,
+      "context_window": 1000000,
+      "notes": "Cache miss pricing",
+      "provider": "DeepSeek"
+    },
+    {
+      "model_name": "Deepseek V4 Flash Vision Exp (Cached)",
+      "model_id": "deepseek-v4-flash-vision-exp",
+      "input_price_per_mtok": 0.007,
+      "output_price_per_mtok": 0.66,
       "context_window": 1000000,
       "notes": "Cache hit pricing",
       "provider": "DeepSeek"

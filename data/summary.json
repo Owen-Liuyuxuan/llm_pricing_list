@@ -1,11 +1,11 @@
 {
   "total_providers": 5,
-  "total_models": 46,
+  "total_models": 48,
   "cheapest_input": {
     "provider": "DeepSeek",
     "model": "Deepseek V4 Flash (Cached)",
-    "input_price": 0.0036,
-    "output_price": 0.87
+    "input_price": 0.007,
+    "output_price": 0.66
   },
   "cheapest_output": {
     "provider": "OpenAI",
