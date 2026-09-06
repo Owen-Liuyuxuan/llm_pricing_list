@@ -1,11 +1,27 @@
 {
-  "scraped_at": "2026-08-30T05:03:52.400140",
+  "scraped_at": "2026-09-06T04:14:57.198912",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-08-30T05:03:53.611512",
+      "scraped_at": "2026-09-06T04:14:58.283562",
       "currency": "USD",
       "models": [
+        {
+          "model_name": "Claude Fable 5.1",
+          "model_id": "claude-fable-5-1",
+          "input_price_per_mtok": 10.0,
+          "output_price_per_mtok": 50.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
+        {
+          "model_name": "Claude Mythos 5.1 (limited availability)",
+          "model_id": "claude-mythos-5-1--limited-availability",
+          "input_price_per_mtok": 10.0,
+          "output_price_per_mtok": 50.0,
+          "context_window": 200000,
+          "notes": "Base input and output pricing"
+        },
         {
           "model_name": "Claude Fable 5",
           "model_id": "claude-fable-5",
@@ -131,9 +147,25 @@
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-08-30T05:03:53.847143",
+      "scraped_at": "2026-09-06T04:14:58.517564",
       "currency": "USD",
       "models": [
+        {
+          "model_name": "gpt-5.4-mini",
+          "model_id": "gpt-5-4-mini",
+          "input_price_per_mtok": 0.75,
+          "output_price_per_mtok": 4.5,
+          "context_window": 128000,
+          "notes": "embedded (first large block); cached input $0.07/MTok"
+        },
+        {
+          "model_name": "gpt-5.4-nano",
+          "model_id": "gpt-5-4-nano",
+          "input_price_per_mtok": 0.2,
+          "output_price_per_mtok": 1.25,
+          "context_window": 128000,
+          "notes": "embedded (first large block); cached input $0.02/MTok"
+        },
         {
           "model_name": "gpt-5.2",
           "model_id": "gpt-5-2",
@@ -355,76 +387,45 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-08-30T05:03:55.019267",
+      "scraped_at": "2026-09-06T04:14:59.370644",
       "currency": "USD",
       "models": [],
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-08-30T05:03:56.323113",
+      "scraped_at": "2026-09-06T04:14:59.949456",
       "currency": "USD",
-      "models": [
-        {
-          "model_name": "Deepseek V4 Flash",
-          "model_id": "deepseek-v4-flash",
-          "input_price_per_mtok": 0.22,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache miss pricing"
-        },
-        {
-          "model_name": "Deepseek V4 Flash (Cached)",
-          "model_id": "deepseek-v4-flash",
-          "input_price_per_mtok": 0.007,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache hit pricing"
-        },
-        {
-          "model_name": "Deepseek V4 Pro",
-          "model_id": "deepseek-v4-pro",
-          "input_price_per_mtok": 0.22,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache miss pricing"
-        },
-        {
-          "model_name": "Deepseek V4 Pro (Cached)",
-          "model_id": "deepseek-v4-pro",
-          "input_price_per_mtok": 0.007,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache hit pricing"
-        },
-        {
-          "model_name": "Deepseek V4 Flash Vision Exp",
-          "model_id": "deepseek-v4-flash-vision-exp",
-          "input_price_per_mtok": 0.22,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache miss pricing"
-        },
-        {
-          "model_name": "Deepseek V4 Flash Vision Exp (Cached)",
-          "model_id": "deepseek-v4-flash-vision-exp",
-          "input_price_per_mtok": 0.007,
-          "output_price_per_mtok": 0.66,
-          "context_window": 1000000,
-          "notes": "Cache hit pricing"
-        }
-      ],
+      "models": [],
       "source_url": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-08-30T05:04:00.581815",
+      "scraped_at": "2026-09-06T04:15:05.759345",
       "currency": "USD",
       "models": [],
       "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh"
     }
   ],
   "all_models": [
+    {
+      "model_name": "Claude Fable 5.1",
+      "model_id": "claude-fable-5-1",
+      "input_price_per_mtok": 10.0,
+      "output_price_per_mtok": 50.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
+    {
+      "model_name": "Claude Mythos 5.1 (limited availability)",
+      "model_id": "claude-mythos-5-1--limited-availability",
+      "input_price_per_mtok": 10.0,
+      "output_price_per_mtok": 50.0,
+      "context_window": 200000,
+      "notes": "Base input and output pricing",
+      "provider": "Claude"
+    },
     {
       "model_name": "Claude Fable 5",
       "model_id": "claude-fable-5",
@@ -559,6 +560,24 @@
       "context_window": 200000,
       "notes": "Base input and output pricing",
       "provider": "Claude"
+    },
+    {
+      "model_name": "gpt-5.4-mini",
+      "model_id": "gpt-5-4-mini",
+      "input_price_per_mtok": 0.75,
+      "output_price_per_mtok": 4.5,
+      "context_window": 128000,
+      "notes": "embedded (first large block); cached input $0.07/MTok",
+      "provider": "OpenAI"
+    },
+    {
+      "model_name": "gpt-5.4-nano",
+      "model_id": "gpt-5-4-nano",
+      "input_price_per_mtok": 0.2,
+      "output_price_per_mtok": 1.25,
+      "context_window": 128000,
+      "notes": "embedded (first large block); cached input $0.02/MTok",
+      "provider": "OpenAI"
     },
     {
       "model_name": "gpt-5.2",
@@ -802,60 +821,6 @@
       "context_window": 128000,
       "notes": "embedded (first large block)",
       "provider": "OpenAI"
-    },
-    {
-      "model_name": "Deepseek V4 Flash",
-      "model_id": "deepseek-v4-flash",
-      "input_price_per_mtok": 0.22,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache miss pricing",
-      "provider": "DeepSeek"
-    },
-    {
-      "model_name": "Deepseek V4 Flash (Cached)",
-      "model_id": "deepseek-v4-flash",
-      "input_price_per_mtok": 0.007,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache hit pricing",
-      "provider": "DeepSeek"
-    },
-    {
-      "model_name": "Deepseek V4 Pro",
-      "model_id": "deepseek-v4-pro",
-      "input_price_per_mtok": 0.22,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache miss pricing",
-      "provider": "DeepSeek"
-    },
-    {
-      "model_name": "Deepseek V4 Pro (Cached)",
-      "model_id": "deepseek-v4-pro",
-      "input_price_per_mtok": 0.007,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache hit pricing",
-      "provider": "DeepSeek"
-    },
-    {
-      "model_name": "Deepseek V4 Flash Vision Exp",
-      "model_id": "deepseek-v4-flash-vision-exp",
-      "input_price_per_mtok": 0.22,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache miss pricing",
-      "provider": "DeepSeek"
-    },
-    {
-      "model_name": "Deepseek V4 Flash Vision Exp (Cached)",
-      "model_id": "deepseek-v4-flash-vision-exp",
-      "input_price_per_mtok": 0.007,
-      "output_price_per_mtok": 0.66,
-      "context_window": 1000000,
-      "notes": "Cache hit pricing",
-      "provider": "DeepSeek"
     }
   ]
 }
