@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-10-11T05:26:47.007909",
+  "scraped_at": "2026-10-18T04:10:49.200771",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-10-11T05:26:47.643358",
+      "scraped_at": "2026-10-18T04:10:49.843019",
       "currency": "USD",
       "models": [],
       "source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-10-11T05:26:47.914058",
+      "scraped_at": "2026-10-18T04:10:49.974835",
       "currency": "USD",
       "models": [
         {
@@ -250,14 +250,14 @@
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-10-11T05:26:48.838326",
+      "scraped_at": "2026-10-18T04:10:51.276629",
       "currency": "USD",
       "models": [],
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-10-11T05:26:49.458076",
+      "scraped_at": "2026-10-18T04:10:52.630031",
       "currency": "USD",
       "models": [
         {
@@ -297,7 +297,7 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-10-11T05:26:53.598949",
+      "scraped_at": "2026-10-18T04:10:56.495862",
       "currency": "USD",
       "models": [],
       "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh"
