@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-10-18T04:10:49.200771",
+  "scraped_at": "2026-10-25T04:20:23.792883",
   "providers": [
     {
       "provider": "Claude",
-      "scraped_at": "2026-10-18T04:10:49.843019",
+      "scraped_at": "2026-10-25T04:20:24.721763",
       "currency": "USD",
       "models": [],
       "source_url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
       "provider": "OpenAI",
-      "scraped_at": "2026-10-18T04:10:49.974835",
+      "scraped_at": "2026-10-25T04:20:24.841879",
       "currency": "USD",
       "models": [
         {
@@ -212,52 +212,20 @@
           "output_price_per_mtok": 1.5,
           "context_window": 128000,
           "notes": "embedded (first large block)"
-        },
-        {
-          "model_name": "gpt-3.5-turbo-1106",
-          "model_id": "gpt-3-5-turbo-1106",
-          "input_price_per_mtok": 1.0,
-          "output_price_per_mtok": 2.0,
-          "context_window": 128000,
-          "notes": "embedded (first large block)"
-        },
-        {
-          "model_name": "gpt-3.5-turbo-instruct",
-          "model_id": "gpt-3-5-turbo-instruct",
-          "input_price_per_mtok": 1.5,
-          "output_price_per_mtok": 2.0,
-          "context_window": 128000,
-          "notes": "embedded (first large block)"
-        },
-        {
-          "model_name": "davinci-002",
-          "model_id": "davinci-002",
-          "input_price_per_mtok": 2.0,
-          "output_price_per_mtok": 2.0,
-          "context_window": 128000,
-          "notes": "embedded (first large block)"
-        },
-        {
-          "model_name": "babbage-002",
-          "model_id": "babbage-002",
-          "input_price_per_mtok": 0.4,
-          "output_price_per_mtok": 0.4,
-          "context_window": 128000,
-          "notes": "embedded (first large block)"
         }
       ],
       "source_url": "https://developers.openai.com/api/docs/pricing"
     },
     {
       "provider": "Gemini",
-      "scraped_at": "2026-10-18T04:10:51.276629",
+      "scraped_at": "2026-10-25T04:20:26.054326",
       "currency": "USD",
       "models": [],
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
-      "scraped_at": "2026-10-18T04:10:52.630031",
+      "scraped_at": "2026-10-25T04:20:26.682484",
       "currency": "USD",
       "models": [
         {
@@ -297,7 +265,7 @@
     },
     {
       "provider": "Doubao",
-      "scraped_at": "2026-10-18T04:10:56.495862",
+      "scraped_at": "2026-10-25T04:20:31.197908",
       "currency": "USD",
       "models": [],
       "source_url": "https://www.volcengine.com/docs/82379/1544106?lang=zh"
@@ -525,42 +493,6 @@
       "model_id": "gpt-3-5-turbo-0125",
       "input_price_per_mtok": 0.5,
       "output_price_per_mtok": 1.5,
-      "context_window": 128000,
-      "notes": "embedded (first large block)",
-      "provider": "OpenAI"
-    },
-    {
-      "model_name": "gpt-3.5-turbo-1106",
-      "model_id": "gpt-3-5-turbo-1106",
-      "input_price_per_mtok": 1.0,
-      "output_price_per_mtok": 2.0,
-      "context_window": 128000,
-      "notes": "embedded (first large block)",
-      "provider": "OpenAI"
-    },
-    {
-      "model_name": "gpt-3.5-turbo-instruct",
-      "model_id": "gpt-3-5-turbo-instruct",
-      "input_price_per_mtok": 1.5,
-      "output_price_per_mtok": 2.0,
-      "context_window": 128000,
-      "notes": "embedded (first large block)",
-      "provider": "OpenAI"
-    },
-    {
-      "model_name": "davinci-002",
-      "model_id": "davinci-002",
-      "input_price_per_mtok": 2.0,
-      "output_price_per_mtok": 2.0,
-      "context_window": 128000,
-      "notes": "embedded (first large block)",
-      "provider": "OpenAI"
-    },
-    {
-      "model_name": "babbage-002",
-      "model_id": "babbage-002",
-      "input_price_per_mtok": 0.4,
-      "output_price_per_mtok": 0.4,
       "context_window": 128000,
       "notes": "embedded (first large block)",
       "provider": "OpenAI"
