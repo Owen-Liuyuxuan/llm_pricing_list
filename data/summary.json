@@ -1,17 +1,17 @@
 {
   "total_providers": 5,
-  "total_models": 29,
+  "total_models": 128,
   "cheapest_input": {
-    "provider": "DeepSeek",
-    "model": "Deepseek Flash(1) (Cached)",
-    "input_price": 0.022,
-    "output_price": 1.98
+    "provider": "Doubao",
+    "model": "日常沟通​",
+    "input_price": 0.015,
+    "output_price": 0.0
   },
   "cheapest_output": {
-    "provider": "OpenAI",
-    "model": "gpt-5-nano",
-    "input_price": 0.05,
-    "output_price": 0.4
+    "provider": "Doubao",
+    "model": "doubao-seedance-2.5​按输出视频分辨率和输入是否包含视频区分定价​",
+    "input_price": 72.1493,
+    "output_price": 0.0
   },
   "most_expensive_input": {
     "provider": "OpenAI",
