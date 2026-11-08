@@ -1,6 +1,6 @@
 {
   "total_providers": 5,
-  "total_models": 128,
+  "total_models": 114,
   "cheapest_input": {
     "provider": "Doubao",
     "model": "日常沟通​",
@@ -10,19 +10,19 @@
   "cheapest_output": {
     "provider": "Doubao",
     "model": "doubao-seedance-2.5​按输出视频分辨率和输入是否包含视频区分定价​",
-    "input_price": 72.1493,
+    "input_price": 71.9501,
     "output_price": 0.0
   },
   "most_expensive_input": {
-    "provider": "OpenAI",
-    "model": "o1-pro",
-    "input_price": 150.0,
-    "output_price": 600.0
+    "provider": "Doubao",
+    "model": "doubao-seedance-2.5​按输出视频分辨率和输入是否包含视频区分定价​",
+    "input_price": 71.9501,
+    "output_price": 0.0
   },
   "most_expensive_output": {
     "provider": "OpenAI",
-    "model": "o1-pro",
-    "input_price": 150.0,
-    "output_price": 600.0
+    "model": "gpt-5.2-pro",
+    "input_price": 21.0,
+    "output_price": 168.0
   }
 }
